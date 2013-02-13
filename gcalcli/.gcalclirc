@@ -1,0 +1,5 @@
+[gcalcli]
+cal: "WeWeWe - Allgemeine Termine" 
+mon: true
+24hr: true
+width: 15
