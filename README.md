@@ -8,7 +8,7 @@ Greetings!
 
 What to do after cloning?
 for vim
- cd 
- mkdir .vimbackup
- ln -s dotFiles/vim/.vim 
- ln -s dotFiles/vim/.vimrc
+	cd 
+	mkdir .vimbackup
+	ln -s dotFiles/vim/.vim 
+	ln -s dotFiles/vim/.vimrc
