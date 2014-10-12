@@ -4,9 +4,6 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
-" Colorscheme see https://github.com/hukl/Smyck-Color-Scheme
-color smyck
-
 " Add line numbers
 set number
 set ruler
@@ -44,7 +41,7 @@ set hlsearch
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
 " Highlight characters behind the 80 chars margin
-:au BufWinEnter * let w:m2=matchadd('ColumnMargin', '\%>80v.\+', -1)
+":au BufWinEnter * let w:m2=matchadd('ColumnMargin', '\%>80v.\+', -1)
 
 " Disable code folding
 set nofoldenable
