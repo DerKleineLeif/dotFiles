@@ -9,6 +9,6 @@ autoload -U compinit
 compinit -i
 
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fpath=(/usr/local/share/zsh-completions $fpath)
 fpath=(/usr/local/Cellar/zsh/5.0.5/share/zsh/functions $fpath)
